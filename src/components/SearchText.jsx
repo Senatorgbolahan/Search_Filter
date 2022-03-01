@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchText = ({ searchWord, handleChange }) => {
+const SearchText = ({ searchWord, handleChange ,handleMM}) => {
   // const usersData = [
   //   { id: 1, name: 'Tania', username: 'floppydiskette' },
   //   { id: 2, name: 'Craig', username: 'siliconeidolon' },
@@ -11,11 +11,12 @@ const SearchText = ({ searchWord, handleChange }) => {
     <section>
       <input
         type="text"
-        name="entry"
         onChange={handleChange}
         value={searchWord}
         placeholder="Search"
       />
+       <button onClick={handleMM}>  Click me</button>
+
     </section>
   );
 };

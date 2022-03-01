@@ -15,9 +15,17 @@ export default function App() {
     setSearchWord(e.target.value);
   };
 
+  const handleMM = (e) => {
+    console.log(searchWord);
+  };
+
   return (
     <section>
-      <SearchText handleChange={handleChange} searchWord={searchWord} />
+      <SearchText
+        handleChange={handleChange}
+        searchWord={searchWord}
+        handleMM={handleMM}
+      />
     </section>
   );
 }
