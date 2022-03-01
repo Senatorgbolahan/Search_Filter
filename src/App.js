@@ -15,7 +15,7 @@ export default function App() {
     setSearchWord(e.target.value);
   };
 
-  const handleMM = (e) => {
+  const handleMM = () => {
     console.log(searchWord);
   };
 
