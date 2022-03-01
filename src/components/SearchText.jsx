@@ -15,7 +15,7 @@ const SearchText = ({ searchWord, handleChange, handleMM }) => {
           onChange={handleChange}
           value={searchWord}
           placeholder="Search"
-          oninput={handleChange}
+          onInput={handleChange}
         />
       </form>
 
