@@ -7,7 +7,7 @@ const SearchText = () => {
     { id: 3, name: 'Ben', username: 'benisphere' },
   ];
 
-  return <section>console.log('Hello');</section>;
+  return <section>{console.log('Hello')}</section>;
 };
 
 export default SearchText;
